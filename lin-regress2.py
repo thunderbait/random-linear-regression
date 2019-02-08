@@ -26,7 +26,6 @@ intercept = regression_model.intercept_[0]
 
 print("The intercept for our model is {}".format(intercept))
 
-
 print("The score of our model is {}".format(regression_model.score(x_test, y_test)))
 
 y_predict = regression_model.predict(x_test)
